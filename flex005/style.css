@@ -1,0 +1,32 @@
+@charset "UTF-8";
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+  body {
+    background-color: rgba(127, 255, 212, 0.349);
+
+ } 
+
+ main{
+    background-color: rgba(100, 148, 237, 0.61);
+    height: 90vh;
+    width: 90vh;
+
+    
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+ }
+
+ section{
+    background-color: rgba(255, 127, 80, 0.678);
+    height: 200px;
+    width: 200px;
+
+
+ }
