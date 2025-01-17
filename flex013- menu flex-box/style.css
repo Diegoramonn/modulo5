@@ -17,7 +17,10 @@ header{
     background-color: rgb(247, 224, 195);
     color: white;
     padding: 10px;
-    margin: 2px;
+    margin: 4px;
+    box-shadow: 2px 2px 3px 3px  rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+   
 
     display: flex;
     flex-flow: row wrap;
@@ -25,12 +28,13 @@ header{
     align-items: center;
 }
 header > h1{
-    border: 1px dotted black;
+      /* border: 1px dotted black; */
     margin: 2px;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 3px black;
 }
 header > nav{
-    border: 1px dotted black;
+   /* border: 1px dotted black; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -55,13 +59,23 @@ header > nav > a:hover{
 }
 main{
     background-color: white;
-    margin: 2px;
+    margin: 4px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.336);
 }
 footer{
-    text-align: center;
+    background-color: beige;
+    color: white;
+    text-align:  center  ;
+   
+    
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.527);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+    
+
+    
     
     
 }
